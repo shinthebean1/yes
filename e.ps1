@@ -1,0 +1,1 @@
+start-process "ms-settings:display"; start-sleep -seconds 3; $wshshell = new-object -comobject wscript.shell; $wshshell.SendKeys("{TAB 2}"); start-sleep -seconds 4; $wshshell.SendKeys("{ENTER}"); start-sleep -seconds 4; $wshshell.SendKeys("{UP 5}"); start-sleep -seconds 4; $wshshell.SendKeys("{ENTER}"); start-sleep -seconds 4; $wshshell.SendKeys("%{F4}"); write-host "Done"
